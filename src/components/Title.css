@@ -1,0 +1,25 @@
+.TitleWrapper {
+    text-align: center;
+    height: 30%;
+    width: 50%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: var(--font, 'sans-serif');
+
+    background-image: url("../images/pattern-circles.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.title {
+    font-size: max(2rem, 2vw);
+    margin-bottom: 2%;
+    color: var(--darkDesaturatedBlue);
+}
+
+.subtitle {
+    font-size: max(0.9rem, 0.9vw);
+    color: var(--grayishBlue);
+}
