@@ -1,11 +1,13 @@
 .root2 {
   background-image: url("./images/bg-pattern.svg");
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 100% 50%;
   background-color: hsl(230, 100%, 99%);
+  background-position: top center;
 
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  column-gap: 5%;
 }

@@ -1,6 +1,6 @@
 .TitleWrapper {
     text-align: center;
-    height: 30%;
+    height: 25%;
     width: 50%;
 
     display: flex;
@@ -22,4 +22,10 @@
 .subtitle {
     font-size: max(0.9rem, 0.9vw);
     color: var(--grayishBlue);
+}
+
+@media screen and (max-width: 1050px) {
+    .TitleWrapper {
+        width: 85%;
+    }
 }
